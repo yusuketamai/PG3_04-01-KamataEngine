@@ -108,6 +108,12 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Downloads\ClearScene.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameManager.cpp" />
+    <ClCompile Include="..\..\..\Downloads\IScene.cpp" />
+    <ClCompile Include="..\..\..\Downloads\main (13).cpp" />
+    <ClCompile Include="..\..\..\Downloads\StageScene.cpp" />
+    <ClCompile Include="..\..\..\Downloads\TitleScene.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\StringUtility.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\WinApp.cpp" />
@@ -115,9 +121,13 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\TextureManager.cpp" />
     <ClCompile Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp" />
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\Downloads\ClearScene.h" />
+    <ClInclude Include="..\..\..\Downloads\GameManager.h" />
+    <ClInclude Include="..\..\..\Downloads\IScene.h" />
+    <ClInclude Include="..\..\..\Downloads\StageScene.h" />
+    <ClInclude Include="..\..\..\Downloads\TitleScene.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\base\StringUtility.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Matrix4x4.h" />
     <ClInclude Include="C:\KamataEngine\DirectXGame\math\Vector2.h" />
